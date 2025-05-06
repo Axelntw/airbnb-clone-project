@@ -101,8 +101,20 @@ To successfully complete this project, participants should:
 - **Data Validation**: Sanitizes input to prevent SQL injection, XSS, and other common vulnerabilities.
 - **HTTPS and Encryption**: All data in transit is secured via HTTPS; sensitive data like passwords is hashed or encrypted.
 
-**Why it matters:**
+## ⚙️ CI/CD Pipeline
 
-- Protects personal user data and account information.
-- Secures financial transactions and booking records.
-- Maintains trust and platform integrity by preventing abuse or unauthorized access.
+**CI/CD (Continuous Integration and Continuous Deployment)** is a crucial part of modern software development. It automates the process of integrating code changes, running tests, and deploying applications, making development faster, more reliable, and less error-prone.
+
+### Why It Matters
+
+- **Continuous Integration** ensures that code changes from multiple developers are automatically tested and merged frequently, reducing integration issues.
+- **Continuous Deployment** automates the delivery of applications to staging or production environments, ensuring quick and consistent updates.
+- These pipelines help detect bugs early, enforce code quality standards, and accelerate the overall development cycle.
+
+### Tools Used
+
+- **GitHub Actions**: Automates workflows like testing, linting, and deployment directly from the GitHub repository.
+- **Docker**: Ensures consistency across development and deployment environments by containerizing the application.
+- **NGINX**: Acts as a web server or reverse proxy in the deployment pipeline.
+- **MySQL**: As part of the production stack, it can be managed within Docker containers and migrated automatically during deployments.
+
