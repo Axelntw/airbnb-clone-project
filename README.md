@@ -74,7 +74,7 @@ To successfully complete this project, participants should:
 
 ---
 
-## 🌟 Feature Breakdown
+## 🌟 Feature Breakdown. UI/UX Design Planning
 
 - **User Management**  
   Allows users to register, log in, manage profiles, and perform secure actions through authentication mechanisms.
