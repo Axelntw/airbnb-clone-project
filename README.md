@@ -118,3 +118,4 @@ To successfully complete this project, participants should:
 - **NGINX**: Acts as a web server or reverse proxy in the deployment pipeline.
 - **MySQL**: As part of the production stack, it can be managed within Docker containers and migrated automatically during deployments.
 
+### Project Roles and Responsibilities, UI Component Patterns
